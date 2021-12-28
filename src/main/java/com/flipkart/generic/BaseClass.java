@@ -21,7 +21,7 @@ public class BaseClass  {
 	@BeforeClass
 	public void openBrowser() throws IOException
 	{
-		Reporter.log("open browser",true);
+		Reporter.log("open browser1111111",true);
 		driver=new ChromeDriver();
 		//driver.get();
 		driver.manage().window().maximize();
